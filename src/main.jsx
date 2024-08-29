@@ -7,8 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App.jsx';
 import AboutMe from './components/Pages/AboutMe.jsx';
 import Contact from './components/Pages/Contact.jsx';
-import HomePage from './components/Pages/HomePage.jsx';
-import Portfolio from './components/Pages/Portfolio.jsx';
+// import HomePage from './components/Pages/HomePage.jsx';
+// import Portfolio from './components/Pages/Portfolio.jsx';
 import Resume from './components/Pages/Resume.jsx';
 
 
@@ -16,11 +16,11 @@ const router = createBrowserRouter([
   {
     path:'/',
     element: <App />,
-    errorElement: <ErrorPage />,
+    // errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        element: <HomePage />,
+        // element: <HomePage />,
       },
       {
         path: 'about',
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'portfolio',
-        element: <Portfolio />,
+        // element: <Portfolio />,
       },
       {
         path: 'resume',
