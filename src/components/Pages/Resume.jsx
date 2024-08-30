@@ -1,6 +1,10 @@
 export default function Resume() {
     return (
-        <div className="container pt-4">Resume</div>
+        <div>
+            <h1>Resume</h1>
+             <img src="C:\Users\thoma\onedrive\desktop\HW\react-portfoilo\R-portfolio\src\assets\img\Toyota resume.png"alt="my resume" />
+        </div>
+      
    
 
     )
