@@ -9,16 +9,18 @@ import AboutMe from './components/Pages/AboutMe.jsx';
 import Contact from './components/Pages/Contact.jsx';
 import Portfolio from './components/Pages/Portfolio.jsx';
 import Resume from './components/Pages/Resume.jsx';
-import Green from './components/Pages/green.jsx'
-import SQL from './components/Pages/SQL.jsx'
-import Weather from './components/Pages/Weather.jsx'
+import Green from './components/Pages/green.jsx';
+import SQL from './components/Pages/SQL.jsx';
+import Weather from './components/Pages/Weather.jsx';
+import ErrorPage from './components/Pages/Errorpage.jsx';
+
 const router = createBrowserRouter([
   {
-    path:'/',
+    path: '/',
     element: <App />,
-    // errorElement: <ErrorPage />,
+    errorElement: <ErrorPage />,
     children: [
-        {
+      {
         index: true,
         element: <AboutMe />,
       },
@@ -50,6 +52,6 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(<RouterProvider router={router}/>
+ReactDOM.createRoot(document.getElementById('root')).render(<RouterProvider router={router} />
 
 );
