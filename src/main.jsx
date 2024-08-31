@@ -9,6 +9,7 @@ import AboutMe from './components/Pages/AboutMe.jsx';
 import Contact from './components/Pages/Contact.jsx';
 import Portfolio from './components/Pages/Portfolio.jsx';
 import Resume from './components/Pages/Resume.jsx';
+import Green from './components/Pages/green.jsx'
 
 
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
         path: 'resume',
         element: <Resume />,
       },
+      {
+        path: 'green',
+        element: <Green />
+      }
     ],
   },
 ]);
