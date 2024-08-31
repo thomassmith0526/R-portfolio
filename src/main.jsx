@@ -10,8 +10,8 @@ import Contact from './components/Pages/Contact.jsx';
 import Portfolio from './components/Pages/Portfolio.jsx';
 import Resume from './components/Pages/Resume.jsx';
 import Green from './components/Pages/green.jsx'
-
-
+import SQL from './components/Pages/SQL.jsx'
+import Weather from './components/Pages/Weather.jsx'
 const router = createBrowserRouter([
   {
     path:'/',
@@ -37,7 +37,15 @@ const router = createBrowserRouter([
       {
         path: 'green',
         element: <Green />
-      }
+      },
+      {
+        path: 'sql',
+        element: <SQL />
+      },
+      {
+        path: 'weather',
+        element: <Weather />
+      },
     ],
   },
 ]);

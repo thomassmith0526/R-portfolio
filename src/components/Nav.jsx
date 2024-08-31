@@ -19,7 +19,14 @@ export default function Nav() {
                 </Link>,   
                  <Link key={4} className="nav-link text-dark" to="/green">
                  Green
-             </Link>,                             
+                </Link>, 
+                <Link key={4} className="nav-link text-dark" to="/sql">
+                SQL
+               </Link>,
+               <Link key={4} className="nav-link text-dark" to="/weather">
+               Weather
+              </Link>, 
+
             ]}
         />    
     );
