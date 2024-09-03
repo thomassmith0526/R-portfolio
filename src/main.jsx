@@ -7,12 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App.jsx';
 import AboutMe from './components/Pages/AboutMe.jsx';
 import Contact from './components/Pages/Contact.jsx';
-import Portfolio from './components/Pages/Portfolio.jsx';
 import Resume from './components/Pages/Resume.jsx';
-import Green from './components/Pages/green.jsx';
-import SQL from './components/Pages/SQL.jsx';
-import Weather from './components/Pages/Weather.jsx';
 import ErrorPage from './components/Pages/Errorpage.jsx';
+import ProjectList from './components/Pages/ProjectsList.jsx';
 
 const router = createBrowserRouter([
   {
@@ -29,24 +26,12 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: 'portfolio',
-        element: <Portfolio />,
-      },
-      {
         path: 'resume',
-        element: <Resume />,
-      },
+         element: <Resume />,
+       },
       {
-        path: 'green',
-        element: <Green />
-      },
-      {
-        path: 'sql',
-        element: <SQL />
-      },
-      {
-        path: 'weather',
-        element: <Weather />
+        path: 'projects',
+        element: <ProjectList />
       },
     ],
   },
