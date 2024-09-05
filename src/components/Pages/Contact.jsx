@@ -1,12 +1,13 @@
 export default function Contact() {
 
     return (
-        <div className='info pt-4 mx-5 text-primary '>
+        <div className='info pt-4 mx-5 text-primary'>
             <ui className="contact">
                 <h1>Thomas Smith</h1>
-                    <h2>Email thomassmith0526@gmail.com</h2>
-                    <h2>Phone # 512-470-8377</h2>
-                    <h2>GitHub thomassmith0526</h2>
+                    <h2>Email - thomassmith0526@gmail.com</h2>
+                    <h2>Phone # - 512-470-8377</h2>
+                    <h2>GitHub - thomassmith0526</h2>
+                    <h2>Linkedin - linkedin.com/in/thomas-smith-5110212a5</h2>
 
             </ui>
 
